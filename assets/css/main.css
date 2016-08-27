@@ -1876,3 +1876,12 @@ body{
 		margin-top: 5%;
 	}
 }
+.main.items .pop{
+    height: 100%;
+    width: 100%;
+}
+
+.main.items .pop .actions li{
+	display: block;
+	width: 100%;
+}
