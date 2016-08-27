@@ -1777,7 +1777,7 @@
 	overflow: hidden;
 	position: relative;
 	visibility: visible;
-	background-image: url(/images/block.png);
+	/*background-image: url(/images/block.png);*/
 	z-index: 1;
 }
 .abgne_tip_gallery_block img {
