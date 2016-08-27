@@ -1825,6 +1825,9 @@ body{
 	float: left;
 	text-align: center;
 }
+.partners >div .caption{
+	top: 80%;
+}
 .partners >div >img{
 	position: relative;
 	display: inline;
