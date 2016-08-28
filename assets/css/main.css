@@ -102,7 +102,7 @@
 	}
 
 	body, input, select, textarea {
-	font-family: "Source Sans Pro",Noto Sans TC ,microsoft jhenghei, Helvetica, sans-serif,Heiti TC;
+	font-family: "Source Sans Pro",lantinhei,Noto Sans TC ,microsoft jhenghei, Helvetica, sans-serif,Heiti TC;
 	font-size: 17pt;
 	font-weight: 200;
 	line-height: 1.65;
@@ -720,7 +720,7 @@
 		.icon.major {
 	display: block;
 	margin: 0 0 1.5em 0;
-	font-family: "Source Sans Pro",Noto Sans TC ,microsoft jhenghei,  Helvetica, sans-serif;
+	font-family: "Source Sans Pro",lantinhei,Noto Sans TC ,microsoft jhenghei,  Helvetica, sans-serif;
 		}
 
 			.icon.major:before {
@@ -1592,7 +1592,7 @@
 	font-weight: 200;
 	text-transform: none;
 	letter-spacing: 0;
-	font-family: "Trebuchet MS",Noto Sans TC ,microsoft jhenghei,  Arial, Helvetica, sans-serif;
+	font-family: "Trebuchet MS",lantinhei,Noto Sans TC ,microsoft jhenghei,  Arial, Helvetica, sans-serif;
 			}
 
 			#header.alt p {
