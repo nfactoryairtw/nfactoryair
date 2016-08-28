@@ -1886,3 +1886,44 @@ body{
 	display: block;
 	width: 100%;
 }
+
+.slick-prev, .slick-next {
+    opacity: .7;
+    filter: drop-shadow(0 0 2px #000) invert(1);
+    cursor: pointer;
+    width: 62px;
+    height: 124px;
+    position: absolute;
+    z-index: 2;
+    background-position: 0 46px;
+    background-image: url(../../galleria/themes/classic/classic-map.png);
+    background-repeat: no-repeat;
+    border:0;
+    box-shadow:none!important;
+    transition: 0.25s transform ease-out 0s;
+}
+.slick-next {
+    left: auto;
+    right: -25px;
+    background-position: -254px 46px;
+    z-index: 2;
+}
+.slick-prev::before, .slick-next::before{
+	display: none;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+    transform: translate(-5px, -50%);
+	opacity: 1;
+    background-position: 0 46px;
+    background-repeat: no-repeat;
+    background-image: url(../../galleria/themes/classic/classic-map.png);
+}
+.slick-next:hover, .slick-next:focus{
+    transform: translate(5px, -50%);
+    background-position: -254px 46px;
+}
+.slick-slide{
+	height: 710px;
+	background-size: cover;
+	background-position: center;
+}
