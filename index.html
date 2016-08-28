@@ -6,6 +6,9 @@
 		<script src="galleria/galleria-1.4.2.min.js"></script>
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="jquery.poptrox-master/jquery.poptrox.min.js"></script>
+		<script src="assets/js/slick/slick.js"></script>
+		<link rel="stylesheet" href="assets/js/slick/slick.css" />
+		<link rel="stylesheet" href="assets/js/slick/slick-theme.css" />
 		<style>
 		.galleria{ width: 1000px; height: 800px; background:  }
 		.table2 {
@@ -43,10 +46,13 @@
 				foo.poptrox({
 					usePopupCaption: true
 				});
+			$('.galleria').slick({
+				dot: false
+			});
 			
 			});
-			Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-			Galleria.run('.galleria');
+			// Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+			// Galleria.run('.galleria');
 		</script>
 	</head>
 	<body>
@@ -59,9 +65,9 @@
 		</header>
 		
 		<div class="galleria" id="wrapper">
-			<a><img src="images/sp1.jpg"></a>
-			<a><img src="images/sp2.jpg"></a>
-			<a><img src="images/sp3.jpg"></a>
+			<a href="javascript:" target="_blank"><img src="images/sp1.jpg"></a>
+			<a href="javascript:" target="_blank"><img src="images/sp2.jpg"></a>
+			<a href="javascript:" target="_blank"><img src="images/sp3.jpg"></a>
 		</div>
 			<div id="wrapper">
 				<!-- Banner -->
