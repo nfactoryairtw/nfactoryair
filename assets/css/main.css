@@ -1890,6 +1890,7 @@ body{
 .slick-prev, .slick-next {
     opacity: .7;
     filter: drop-shadow(0 0 2px #000) invert(1);
+     -webkit-filter: drop-shadow(0 0 2px #000) invert(1);
     cursor: pointer;
     width: 62px;
     height: 124px;
