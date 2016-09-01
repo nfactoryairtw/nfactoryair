@@ -1929,8 +1929,8 @@ body{
 	background-size: cover;
 	background-position: center;
 }
-.slick-slider{
+#wrapper.slick-slider{
 	width:1000px;
 	height:500px;
 }
-}
+
