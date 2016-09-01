@@ -1924,13 +1924,13 @@ body{
     background-position: -254px 46px;
 }
 .slick-slide{
-	height: 500px;
+	height: 410px;
 	width: 1000px;
 	background-size: cover;
 	background-position: center;
 }
 #wrapper.slick-slider{
 	width:1000px;
-	height:500px;
+	height:410px;
 }
 
