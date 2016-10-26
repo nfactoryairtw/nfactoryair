@@ -1926,7 +1926,7 @@ body{
 .slick-slide{
 	height: 410px;
 	width: 1000px;
-	background-size: cover;
+	/*background-size: cover;*/
 	background-position: center;
 	background-repeat: no-repeat; 
 background-size: 100% auto;
