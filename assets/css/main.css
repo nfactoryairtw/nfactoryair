@@ -1519,11 +1519,12 @@
 		}
 
 		#header a {
-			color: inherit;
+	color: #000000;
+	background-color: #FFF;
 		}
 
 			#header a:hover {
-				color: #EF6480 !important;
+	color: #FF3399 !important;
 			}
 
 		#header strong, #header b {
@@ -1935,4 +1936,3 @@ background-size: 100% auto;
 	width:1000px;
 	height:500px;
 }
-
