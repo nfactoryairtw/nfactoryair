@@ -1,5 +1,9 @@
 <?php
-if (isset($_POST["submit"])) {
+if (isset($_POST["submit"])) 
+{  
+//接收內容
+  $username = addslashes($_POST["username"]);
+  $content = addslashes($_POST["content"]);
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message']; 
